@@ -55,3 +55,45 @@ publish/
 # Others
 *.cache
 *.db
+
+
+
+# 🔧 Compiled files (C / C++)
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+
+# 🧠 Debug files
+*.log
+*.tmp
+*.stackdump
+
+# 🧾 Build folders (if you use any)
+build/
+bin/
+dist/
+
+# 💻 VS Code settings
+.vscode/
+*.code-workspace
+
+# 🪟 Windows system files
+Thumbs.db
+Desktop.ini
+
+# 🧹 Temporary files
+*.swp
+*.bak
+*.cache
+
+# 🧪 WinBGI specific (if generated)
+*.ilk
+*.pdb
+*.lib
+*.exp
+
+# 🧾 Optional: ignore compiled graphics output (if any)
+*.bmp
+*.png
