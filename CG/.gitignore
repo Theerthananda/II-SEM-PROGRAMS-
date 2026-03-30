@@ -97,3 +97,8 @@ Desktop.ini
 # 🧾 Optional: ignore compiled graphics output (if any)
 *.bmp
 *.png
+
+
+.cbp
+.cpp
+.layout
