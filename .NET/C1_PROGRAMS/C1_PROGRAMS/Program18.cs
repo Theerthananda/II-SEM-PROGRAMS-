@@ -4,15 +4,18 @@ class Program18
 {
     static void Main()
     {
-        int a=5,b=6;
+        int a = 1;
 
-        // loop condition is a boolean expression
-        while (a<b&&b>0)
+       
+        bool condition = true;
+
+        while (condition)
         {
             Console.WriteLine(a);
             a++;
-            b--;
 
+            if (a > 5)
+                condition = false;
         }
     }
 }

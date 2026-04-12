@@ -38,7 +38,7 @@ int BinarySearch(int a[], int n, int data) {
         if(a[mid] == data)
             return mid;
         else if(data < a[mid])
-            high = mid - 1;
+            high = mid - 1; 
         else
             low = mid + 1;
     }

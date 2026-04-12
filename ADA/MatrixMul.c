@@ -6,18 +6,17 @@
 void Multiply(int r1,int c1,int r2,int c2,int a[50][50],int b[50][50],int mul[50][50]){
 	for(int i=0;i<r1;i++){
 		for(int j=0;j<c2;j++){
-			
-			 mul[i][j]=0;
+			mul[i][j]=0;
 			for(int k=0;k<c1;k++){
 				mul[i][j]+=a[i][k]*b[k][j];
 			}
-		}
+		}                                  
 	}
 	
 	printf("Multiplied Matrix elements :\n");
 	for(int i=0;i<r1;i++){
 		for(int j=0;j<c2;j++){
-			printf("%d ",mul[i][j]);
+			printf("%3d ",mul[i][j]);
 		}
 		printf("\n");
 	}
@@ -54,6 +53,26 @@ int main(){
            scanf("%d",&b[i][j]);
            }
        }
+       
+       printf("\nMatrix 1:\n");
+       for(int i=0;i<r1;i++){
+            for(int j=0;j<c1;j++){
+               printf("%3d ",a[i][j]);
+           }
+           
+           printf("\n");
+       }
+       
+       printf("\n\n");
+       
+       printf("Matrix 2:\n");
+       for(int i=0;i<r2;i++){
+           for(int j=0;j<c2;j++){
+           printf("%3d ",b[i][j]);
+           }
+           printf("\n");
+       }
+		printf("\n");
 		Multiply(r1,c1,r2,c2,a,b,mul);
 	}
 	

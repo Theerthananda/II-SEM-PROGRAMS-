@@ -17,7 +17,7 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    int res = checkUnique(a, n);
+    int res=checkUnique(a, n);
 
     if(res == 1)
         printf("All elements are UNIQUE");
@@ -28,12 +28,14 @@ int main() {
 }
 
 int checkUnique(int a[], int n) {
+	int flag=0;
     for(int i = 0; i < n; i++) {
         for(int j = i + 1; j < n; j++) {
             if(a[i] == a[j]) {
-                return 0;  // duplicate found
+                return 0;
+				flag++;
             }
         }
     }
-    return 1;  // all unique
+   return 1;
 }

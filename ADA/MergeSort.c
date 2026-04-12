@@ -39,7 +39,7 @@ void Merge(int a[], int lb, int mid, int ub){
         }
     }
 
-    while(i <= mid){
+   while(i <= mid){ 
         b[k++] = a[i++];
     }
 

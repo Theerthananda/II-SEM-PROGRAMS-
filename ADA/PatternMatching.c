@@ -7,7 +7,7 @@ int main() {
     printf("Enter Text: ");
     fgets(text, sizeof(text), stdin);
     //gets(text) // works same as fgets but not secure
-
+    
     printf("Enter Pattern: ");
     fgets(pattern, sizeof(pattern), stdin);
     //gets(pattern) // works same as fgets but not secure
@@ -20,7 +20,7 @@ int main() {
     if(pattern[m-1] == '\n') pattern[m-1] = '\0'; // optional 
     n = strlen(text);
     m = strlen(pattern);
-
+             
     for(int i = 0; i <= n - m; i++) {
         int j;
 
