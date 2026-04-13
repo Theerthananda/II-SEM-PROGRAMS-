@@ -2,7 +2,7 @@
 
 class Program18
 {
-    static void Main()
+    public void Run()
     {
         int a = 1;
 

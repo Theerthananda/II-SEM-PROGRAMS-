@@ -8,8 +8,9 @@ class Program5
         string path1 = @"C:\Users\Programmer\Files";
         Console.WriteLine("Verbatim Path: " + path1);
 
-        string path2 = "C:\\Users\\Programmer\\Files";
-        Console.WriteLine("Escape Path: " + path2);
+        string MultilineString = @"This is a multiline
+string that spans multiple lines";
+        Console.WriteLine(MultilineString);
 
         string path3 = @"D:\Projects\CSharp\Program5";
         Console.WriteLine("Project Path: " + path3);

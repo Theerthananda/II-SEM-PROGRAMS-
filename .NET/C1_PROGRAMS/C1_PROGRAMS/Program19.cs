@@ -2,7 +2,7 @@
 
 class Program19
 {
-    static void Main()
+    public static void Main()
     {
         int a = 10, b = 5;
 
@@ -51,8 +51,11 @@ class Program19
         Console.WriteLine(result);
 
         // 8. Special Operators (typeof, sizeof)
-        Console.WriteLine("\nSpecial:");
+        Console.WriteLine("\nSpecial:"); 
         Console.WriteLine("Type of a: " + typeof(int));
         Console.WriteLine("Size of int: " + sizeof(int));
     }
 }
+
+
+
