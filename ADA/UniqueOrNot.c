@@ -33,7 +33,7 @@ int checkUnique(int a[], int n) {
         for(int j = i + 1; j < n; j++) {
             if(a[i] == a[j]) {
                 return 0;
-				flag++;
+				//flag++;
             }
         }
     }
