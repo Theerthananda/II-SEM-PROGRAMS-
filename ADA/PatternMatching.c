@@ -33,7 +33,7 @@ int main() {
         if(j == m) {
             printf("Match found from index %d to %d", i, i + m - 1);
             return 0;
-        }
+        }   
     }
 
     printf("Pattern not found");
