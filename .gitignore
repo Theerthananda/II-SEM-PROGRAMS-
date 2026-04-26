@@ -66,3 +66,4 @@ publish/
 *.o
 *.layout
 *.win
+*.dev
