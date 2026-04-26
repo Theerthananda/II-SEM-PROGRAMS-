@@ -75,17 +75,37 @@ void primMST(int graph[MAX][MAX]) {
 
 
 int main() {
-    int graph[MAX][MAX];
-
+    int graph[MAX][MAX],edges,v,u,cost;
+    
     printf("Enter number of vertices: ");
     scanf("%d", &V);
 
-    printf("Enter adjacency matrix (0 if no edge):\n");
+    printf("Enter number of edges :");
+    scanf("%d",&edges);
+
+    for(int i=0;i<V;i++){
+        for(int j=0;j<V;j++){
+            graph[i][j]=0;
+        }
+    }
+
+    /*printf("Enter adjacency matrix (0 if no edge):\n");
     for (int i = 0; i < V; i++) {
         for (int j = 0; j < V; j++) {
             printf("Edge %d - %d: ", i, j);
             scanf("%d", &graph[i][j]);
         }
+    }*/
+
+    printf("Enter %d edges :\n",edges);
+    
+    for(int i=0;i<edges;i++){
+        printf("Enter edges :");
+        scanf("%d %d",&v,&u);
+        printf("\nEnter cost of edge :");
+        scanf("%d",&cost);
+        graph[u][v]=cost;
+        graph[v][u]=cost;
     }
 
     primMST(graph);

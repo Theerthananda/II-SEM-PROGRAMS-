@@ -60,3 +60,9 @@ publish/
 *.sln
 *.layout
 *.suo
+
+
+*.exe
+*.o
+*.layout
+*.win
