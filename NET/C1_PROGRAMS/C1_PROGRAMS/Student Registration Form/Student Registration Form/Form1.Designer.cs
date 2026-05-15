@@ -102,9 +102,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(340, 42);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(303, 47);
             label3.Name = "label3";
-            label3.Size = new Size(182, 20);
+            label3.Size = new Size(262, 28);
             label3.TabIndex = 6;
             label3.Text = "Student Registration Form";
             // 

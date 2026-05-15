@@ -47,16 +47,17 @@ namespace Student_Registration_Form
             label5.Text = "Click to Submit Form";
         }
 
-     
+
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            label5.Text = "";
+            label5.Text = "Dev By Theerthananda";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }

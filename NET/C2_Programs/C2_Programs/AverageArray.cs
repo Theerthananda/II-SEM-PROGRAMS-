@@ -5,24 +5,24 @@ class AverageArray
     static void Main()
     {
         int[] nums = new int[10];
-        int avg = 0;
+        int sum = 0;
+        int avg;
+        Console.WriteLine("How many numbers do you want to enter? (Max 10): ");
+        int n = int.Parse(Console.ReadLine());
 
-        nums[0] = 99;
-        nums[1] = 10;
-        nums[2] = 100;
-        nums[3] = 18;
-        nums[4] = 78;
-        nums[5] = 23;
-        nums[6] = 63;
-        nums[7] = 9;
-        nums[8] = 87;
-        nums[9] = 49;
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Enter number " + (i + 1) + ": ");
+            nums[i] = int.Parse(Console.ReadLine());
+        }
 
         for (int i = 0; i < 10; i++)
-            avg = avg + nums[i];
-
-        avg = avg / 10;
+        {
+            sum = sum + nums[i];
+        }
+        avg = sum / 10;
 
         Console.WriteLine("Average: " + avg);
+
     }
 }
