@@ -30,7 +30,7 @@ int main() {
             line(i + lineOffset, 450, i + 20 + lineOffset, 450);
         }
 
-        delay(30);
+        delay(35);
 
         x += 5;
         lineOffset -= 5;

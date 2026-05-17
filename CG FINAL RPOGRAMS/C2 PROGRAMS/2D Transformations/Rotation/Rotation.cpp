@@ -17,7 +17,7 @@ int main() {
 
     delay(2000);
 
-    float angle = 45 * PI/180;
+    float angle = 40 * PI/180;
 
     int x1r = x1*cos(angle) - y1*sin(angle);
     int y1r = x1*sin(angle) + y1*cos(angle);
