@@ -1,20 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
+/*
+ * @author Theerthananda
+ */
+
+//input starts from 1
+#include<stdio.h>
+#include<stdlib.h>
 
 int a[10][10], i, j, n, e, u, v, cost;
 int vis[10] = {0}, mincost = 0, ne = 0, src, min;
-
-void matrix_print()
-{
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=n;j++)
-        {
-            printf("%d\t",a[i][j]);
-        }
-        printf("\n");
-    }
-}
 
 int main()
 {

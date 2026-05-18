@@ -89,16 +89,19 @@ int main() {
         }
     }
 
-    /*printf("Enter adjacency matrix (0 if no edge):\n");
+
+     /*
+     
+    printf("Enter adjacency matrix (0 if no edge):\n");
     for (int i = 0; i < V; i++) {
         for (int j = 0; j < V; j++) {
             printf("Edge %d - %d: ", i, j);
             scanf("%d", &graph[i][j]);
         }
-    }*/
-
-    printf("Enter %d edges :\n",edges);
+    }    
+        */
     
+    printf("Enter %d edges :\n",edges);
     for(int i=0;i<edges;i++){
         printf("Enter edges :");
         scanf("%d %d",&v,&u);
