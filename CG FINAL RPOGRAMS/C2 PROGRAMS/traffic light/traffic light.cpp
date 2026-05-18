@@ -5,7 +5,8 @@ int main() {
     int gd = DETECT;
     int gm;
     initgraph(&gd, &gm, (char*)"C:\\Dev-Cpp\\MinGW32\\lib");
-    while(!kbhit()){
+    
+	while(!kbhit()){
     cleardevice();
     rectangle(280, 100, 360, 300);
     
@@ -26,7 +27,7 @@ int main() {
     setfillstyle(SOLID_FILL, GREEN);
     floodfill(320, 260, WHITE);
     delay(1000);
-}
+  }
 
 
     getch();
