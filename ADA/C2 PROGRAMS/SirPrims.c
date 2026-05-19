@@ -35,10 +35,7 @@ int main()
 
         a[u][v]=a[v][u]=cost;
     }
-
-    printf("Adjacency Matrix is\n");
-    matrix_print();
-
+    
     printf("Enter the source\n");
     scanf("%d",&src);
 
