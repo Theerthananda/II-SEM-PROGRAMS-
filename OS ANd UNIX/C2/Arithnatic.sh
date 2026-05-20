@@ -9,7 +9,7 @@ read b
 sum=$((a + b))
 sub=$((a - b))
 mul=$((a * b))
-div=$((a / b))
+div=$(echo "scale=2; $a / $b" | bc)
 mod=$((a % b))
 
 echo "Addition = $sum"
